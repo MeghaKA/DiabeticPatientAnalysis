@@ -1,19 +1,18 @@
 🩺 Diabetic Patient Analysis & Prediction
 
-A machine learning project focused on analyzing patient health data and predicting the likelihood of diabetes using Python-based data analytics techniques.
+A machine learning project that analyzes patient health indicators and predicts the likelihood of diabetes using Python and data analytics techniques.
 
 ⸻
 
-🎯 Problem Statement
+🎯 Project Objective
 
-Diabetes is a widespread chronic disease that affects millions of people worldwide. Early prediction can help healthcare professionals take preventive measures and provide timely treatment.
-This project analyzes patient medical indicators and builds a predictive model to estimate diabetes risk.
+The goal of this project is to analyze medical data and build a predictive model that can help identify individuals who are at risk of diabetes. Early prediction can support healthcare professionals in taking preventive actions and improving patient outcomes.
 
 ⸻
 
 📊 Dataset
 
-The dataset contains several medical attributes used for prediction, including:
+The dataset contains several medical attributes used to determine diabetes risk, including:
 	•	Pregnancies
 	•	Glucose Level
 	•	Blood Pressure
@@ -23,11 +22,11 @@ The dataset contains several medical attributes used for prediction, including:
 	•	Diabetes Pedigree Function
 	•	Age
 
-These variables are used to analyze patterns and train the prediction model.
+These features are used to train and test the machine learning model.
 
 ⸻
 
-🛠 Tools & Technologies
+⚙️ Tools & Technologies
 	•	Python
 	•	Pandas
 	•	NumPy
@@ -37,21 +36,31 @@ These variables are used to analyze patterns and train the prediction model.
 ⸻
 
 🔍 Project Workflow
-	1.	Data Loading and Exploration
-	2.	Data Cleaning & Preprocessing
-	3.	Feature Analysis
-	4.	Model Training and Testing
-	5.	Prediction of Diabetes Risk
+	•	Data loading and exploration
+	•	Data preprocessing and cleaning
+	•	Feature analysis
+	•	Machine learning model training
+	•	Model testing and prediction
 
 ⸻
 
-📈 Key Outcome
+📈 Key Insights
+	•	Identified important medical indicators influencing diabetes risk
+	•	Built a machine learning model for diabetes prediction
+	•	Demonstrated how data analytics can support healthcare decision making
 
-This project demonstrates how data analytics and machine learning techniques can be applied to healthcare datasets to support early detection of diabetes and data-driven decision making.
+⸻
+
+📁 Repository Contents
+	•	Train Code File – Model training script
+	•	Test Code File – Model testing script
+	•	IPYNB Notebook – Complete analysis workflow
+	•	Project Report – Detailed documentation
 
 ⸻
 
 👩‍💻 Author
 
-Megha K
-Data Analytics | SQL | Python | Cloud Analytics | AWS Certified
+Megha K A
+Data Analyst 
+Python | SQL | Cloud Analytics| Machine Learning | AWS Certified
