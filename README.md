@@ -1,6 +1,8 @@
-🩺 Diabetic Patient Analysis & Prediction using Machine Learning
+# Diabetic Patient Prediction using Machine Learning Diabetic Patient Analysis & Prediction using Machine Learning
 
-A machine learning project that analyzes patient health indicators and predicts the likelihood of diabetes using Python and data analytics techniques.
+## Machine Learning Project
+
+This Machine Learning project analyzes patient health indicators and predicts the likelihood of diabetes using Python and machine learning techniques.
 
 ⸻
 
