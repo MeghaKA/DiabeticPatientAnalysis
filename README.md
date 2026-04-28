@@ -1,4 +1,4 @@
-# Diabetic Patient Prediction using Machine Learning Diabetic Patient Analysis & Prediction using Machine Learning
+# Diabetic Patient Analysis & Prediction using Machine Learning
 
 ## Machine Learning Project
 
