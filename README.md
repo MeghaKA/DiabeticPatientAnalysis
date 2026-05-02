@@ -65,9 +65,12 @@ decision-support contexts.
 • While individual-level explanations were explored, global SHAP analysis consistently shows that features such as HighBP, HighChol, and BMI strongly influence diabetes prediction.
 
 • These findings align with established clinical risk factors, supporting the model’s interpretability and potential use in healthcare decision support.
+
 ⸻
 
+
 📁 Repository Contents
+
 	•	Train Code File – Model training script
 	•	Test Code File – Model testing script
 	•	IPYNB Notebook – Complete analysis workflow
