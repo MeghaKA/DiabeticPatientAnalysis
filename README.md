@@ -51,29 +51,20 @@ These features are used to train and test the machine learning model.
 	•	Built a machine learning model for diabetes prediction
 	•	Demonstrated how data analytics can support healthcare decision making
 	
-   ## SHAP Explainability Insights:
+   ## SHAP Explainability Insights & Patient-level Insights:
 
-• SHAP analysis revealed that High Blood Pressure and High Cholesterol 
-are the most influential features driving diabetes predictions.
+• SHAP analysis revealed that High Blood Pressure and High Cholesterol are the most influential features driving diabetes predictions.
 
-• Higher values of these features consistently contributed to increased 
-model output, indicating elevated diabetes risk.
+• Higher values of these features consistently contributed to increased model output, indicating elevated diabetes risk.
 
-• This aligns with established clinical understanding, where hypertension 
-and cholesterol levels are known risk factors for metabolic disorders.
+• This aligns with established clinical understanding, where hypertension and cholesterol levels are known risk factors for metabolic disorders.
 
-• The model demonstrates not only predictive capability but also 
-clinically interpretable behavior, supporting its potential use in 
-decision-support contexts.
+• The model demonstrates not only predictive capability but also clinically interpretable behavior, supporting its potential use in 
+decision-support contexts.  
 
-    ## Patient-level Insights
+• While individual-level explanations were explored, global SHAP analysis consistently shows that features such as HighBP, HighChol, and BMI strongly influence diabetes prediction.
 
-• While individual-level explanations were explored, global SHAP analysis 
-consistently shows that features such as HighBP, HighChol, and BMI 
-strongly influence diabetes prediction.
-
-• These findings align with established clinical risk factors, supporting 
-the model’s interpretability and potential use in healthcare decision support.
+• These findings align with established clinical risk factors, supporting the model’s interpretability and potential use in healthcare decision support.
 ⸻
 
 📁 Repository Contents
