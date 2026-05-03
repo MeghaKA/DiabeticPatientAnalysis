@@ -1,79 +1,72 @@
 # 🩺 Diabetic Patient Analysis & Prediction using Machine Learning
 
-## 📌 Project Overview
-This project applies machine learning techniques to predict the likelihood of diabetes based on patient health indicators. The objective is to support early detection and assist in clinical decision-making through data-driven insights.
+## 🎯 Overview  
+This project focuses on predicting diabetes risk using machine learning models and improving transparency using **SHAP (Explainable AI)**.
 
-The model not only focuses on prediction accuracy but also emphasizes **interpretability using SHAP explainability techniques**, making the system more transparent and aligned with healthcare applications.
-
----
-
-## 🎯 Objective
-To build a machine learning model that:
-- Predicts diabetes risk using patient medical attributes
-- Identifies key health factors influencing predictions
-- Provides explainable AI outputs for clinical interpretation
+The goal is not only to build accurate predictive models, but also to understand the key factors influencing those predictions — an important requirement in healthcare applications.
 
 ---
 
-## 📊 Dataset Features
-The dataset includes key health indicators:
-
-- Pregnancies  
-- Glucose Level  
-- Blood Pressure  
-- Skin Thickness  
-- Insulin  
-- BMI (Body Mass Index)  
-- Diabetes Pedigree Function  
-- Age  
-
----
-
-## ⚙️ Tools & Technologies
+## ⚙️ Tech Stack  
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
-- Matplotlib, Seaborn  
 - SHAP (Explainable AI)  
-- Jupyter Notebook  
 
 ---
 
-## 🔍 Workflow
-- Data loading and preprocessing  
-- Feature selection and scaling  
-- Model training (Logistic Regression, SVM, Decision Tree, AdaBoost, CatBoost)  
-- Model evaluation (Accuracy, Precision, Recall, F1-score)  
-- Explainability using SHAP  
+## 🚀 What I Built  
+- Trained multiple machine learning models:
+  - Logistic Regression  
+  - Support Vector Machine (SVM)  
+  - Decision Tree  
+  - AdaBoost  
+  - CatBoost  
+- Evaluated model performance using standard metrics  
+- Applied SHAP to interpret model predictions  
 
 ---
 
-## 📈 Model Performance
-Multiple machine learning models were evaluated, and Decision Tree showed competitive performance among baseline models.
+## 📊 Key Insights  
+SHAP analysis highlights that:
+
+- **High Blood Pressure (HighBP)**  
+- **High Cholesterol (HighChol)**  
+- and features such as **BMI**
+
+have a strong influence on diabetes predictions.
+
+Higher values of these features are generally associated with increased predicted risk.
 
 ---
 
-## 🧠 SHAP Explainability Insights
+## 🔬 Explainability  
 
-- SHAP analysis revealed that **High Blood Pressure, High Cholesterol, and BMI** are the most influential predictors of diabetes risk.
-- Higher values of these features consistently increased model prediction output.
-- These findings align with established medical knowledge, confirming model interpretability.
-- The system demonstrates both predictive accuracy and clinical transparency.
+To improve interpretability, SHAP was used to analyze feature contributions.
 
-### 🔬 Patient-Level Insight
-SHAP-based local explanations show how individual features contribute to a specific patient's predicted risk, improving trust in model decisions.
+📌 The beeswarm plot below shows:
+- Which features matter most  
+- How they impact predictions (positive/negative influence)  
 
----
-
-## 📁 Repository Structure
-- `notebook.ipynb` → Full analysis workflow  
-- `train.csv / test.csv` → Dataset files  
-- `shap_summary.png` → Global feature importance visualization  
-- `shap_bar.png` → Feature ranking plot  
+![SHAP Summary](shap_summary.png)
 
 ---
 
-## 👩‍💻 Author
+## 🧠 Why This Matters  
+In healthcare, predictions alone are not enough.  
+Models must be interpretable and trustworthy.
+
+This project demonstrates how machine learning models can provide **both predictive performance and meaningful insights**, supporting real-world decision-making.
+
+---
+
+## 🔮 Future Work  
+- Improve model performance (especially recall)  
+- Extend analysis to related diseases such as CKD  
+- Explore more advanced explainability approaches  
+
+---
+
+## 👩‍💻 Author  
 **Megha K A**  
-Data Analyst | Machine Learning Enthusiast  
-Python | SQL | Cloud Analytics | AI in Healthcare
+Data Analyst | Machine Learning | Python | SQL
