@@ -1,87 +1,79 @@
-# Diabetic Patient Analysis & Prediction using Machine Learning
+# 🩺 Diabetic Patient Analysis & Prediction using Machine Learning
 
-## Machine Learning Project
+## 📌 Project Overview
+This project applies machine learning techniques to predict the likelihood of diabetes based on patient health indicators. The objective is to support early detection and assist in clinical decision-making through data-driven insights.
 
-This Machine Learning project analyzes patient health indicators and predicts the likelihood of diabetes using Python and machine learning techniques.
+The model not only focuses on prediction accuracy but also emphasizes **interpretability using SHAP explainability techniques**, making the system more transparent and aligned with healthcare applications.
 
-⸻
+---
 
-🎯 Project Objective
+## 🎯 Objective
+To build a machine learning model that:
+- Predicts diabetes risk using patient medical attributes
+- Identifies key health factors influencing predictions
+- Provides explainable AI outputs for clinical interpretation
 
-The goal of this project is to analyze medical data and build a predictive model that can help identify individuals who are at risk of diabetes. Early prediction can support healthcare professionals in taking preventive actions and improving patient outcomes.
+---
 
-⸻
+## 📊 Dataset Features
+The dataset includes key health indicators:
 
-📊 Dataset
+- Pregnancies  
+- Glucose Level  
+- Blood Pressure  
+- Skin Thickness  
+- Insulin  
+- BMI (Body Mass Index)  
+- Diabetes Pedigree Function  
+- Age  
 
-The dataset contains several medical attributes used to determine diabetes risk, including:
-	•	Pregnancies
-	•	Glucose Level
-	•	Blood Pressure
-	•	Skin Thickness
-	•	Insulin Level
-	•	BMI (Body Mass Index)
-	•	Diabetes Pedigree Function
-	•	Age
+---
 
-These features are used to train and test the machine learning model.
+## ⚙️ Tools & Technologies
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- SHAP (Explainable AI)  
+- Jupyter Notebook  
 
-⸻
+---
 
-⚙️ Tools & Technologies
-	•	Python
-	•	Pandas
-	•	NumPy
-	•	Scikit-learn
-	•	Jupyter Notebook
+## 🔍 Workflow
+- Data loading and preprocessing  
+- Feature selection and scaling  
+- Model training (Logistic Regression, SVM, Decision Tree, AdaBoost, CatBoost)  
+- Model evaluation (Accuracy, Precision, Recall, F1-score)  
+- Explainability using SHAP  
 
-⸻
+---
 
-🔍 Project Workflow
-	•	Data loading and exploration
-	•	Data preprocessing and cleaning
-	•	Feature analysis
-	•	Machine learning model training
-	•	Model testing and prediction
+## 📈 Model Performance
+Multiple machine learning models were evaluated, and Decision Tree showed competitive performance among baseline models.
 
-⸻
+---
 
-📈 Key Insights
-	•	Identified important medical indicators influencing diabetes risk
-	•	Built a machine learning model for diabetes prediction
-	•	Demonstrated how data analytics can support healthcare decision making
-	
-   ## SHAP Explainability Insights & Patient-level Insights:
+## 🧠 SHAP Explainability Insights
 
-• SHAP analysis revealed that High Blood Pressure and High Cholesterol are the most influential features driving diabetes predictions.
+- SHAP analysis revealed that **High Blood Pressure, High Cholesterol, and BMI** are the most influential predictors of diabetes risk.
+- Higher values of these features consistently increased model prediction output.
+- These findings align with established medical knowledge, confirming model interpretability.
+- The system demonstrates both predictive accuracy and clinical transparency.
 
-• Higher values of these features consistently contributed to increased model output, indicating elevated diabetes risk.
+### 🔬 Patient-Level Insight
+SHAP-based local explanations show how individual features contribute to a specific patient's predicted risk, improving trust in model decisions.
 
-• This aligns with established clinical understanding, where hypertension and cholesterol levels are known risk factors for metabolic disorders.
+---
 
-• The model demonstrates not only predictive capability but also clinically interpretable behavior, supporting its potential use in 
-decision-support contexts.  
+## 📁 Repository Structure
+- `notebook.ipynb` → Full analysis workflow  
+- `train.csv / test.csv` → Dataset files  
+- `shap_summary.png` → Global feature importance visualization  
+- `shap_bar.png` → Feature ranking plot  
 
-• While individual-level explanations were explored, global SHAP analysis consistently shows that features such as HighBP, HighChol, and BMI strongly influence diabetes prediction.
+---
 
-• These findings align with established clinical risk factors, supporting the model’s interpretability and potential use in healthcare decision support.
-
-⸻
-
-
-📁 Repository Contents
-
-	•	Train Code File – Model training script
-	•	Test Code File – Model testing script
-	•	IPYNB Notebook – Complete analysis workflow
-	•	SHAP_Summary_plot
-   
-
-
-⸻
-
-👩‍💻 Author
-
-Megha K A
-Data Analyst 
-Python | SQL | Cloud Analytics| Machine Learning | AWS Certified
+## 👩‍💻 Author
+**Megha K A**  
+Data Analyst | Machine Learning Enthusiast  
+Python | SQL | Cloud Analytics | AI in Healthcare
