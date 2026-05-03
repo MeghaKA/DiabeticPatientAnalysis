@@ -48,7 +48,7 @@ To improve interpretability, SHAP was used to analyze feature contributions.
 - Which features matter most  
 - How they impact predictions (positive/negative influence)  
 
-![SHAP Summary](shap_summary.png)
+![SHAP SUMMARY](shap_summary.png)
 
 ---
 
