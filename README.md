@@ -48,7 +48,7 @@ To improve interpretability, SHAP was used to analyze feature contributions.
 - Which features matter most  
 - How they impact predictions (positive/negative influence)  
 
-shap_summary.png
+![SHAP Summary](https://github.com/MeghaKA/DiabeticPatientAnalysis/blob/main/shap_summary.png)
 ---
 
 ## 🧠 Why This Matters  
