@@ -1,9 +1,9 @@
-# 🩺 Diabetic Patient Analysis & Prediction using Machine Learning
+# 🩺 Diabetes Prediction using Machine Learning
 
 ## 🎯 Overview  
-This project focuses on predicting diabetes risk using machine learning models and improving transparency using **SHAP (Explainable AI)**.
+This project focuses on predicting diabetes risk using machine learning models based on clinical and health-related features.
 
-The goal is not only to build accurate predictive models, but also to understand the key factors influencing those predictions — an important requirement in healthcare applications.
+The goal is to build reliable predictive models and understand the key factors associated with diabetes risk.
 
 ---
 
@@ -11,58 +11,52 @@ The goal is not only to build accurate predictive models, but also to understand
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
-- SHAP (Explainable AI)  
+- SHAP (Explainable AI - basic usage)  
 
 ---
 
 ## 🚀 What I Built  
-- Trained multiple machine learning models:
+- Developed and compared multiple machine learning models:
   - Logistic Regression  
   - Support Vector Machine (SVM)  
   - Decision Tree  
   - AdaBoost  
   - CatBoost  
-- Evaluated model performance using standard metrics  
-- Applied SHAP to interpret model predictions  
+- Performed data preprocessing and feature analysis  
+- Evaluated models using standard performance metrics  
+- Explored basic model interpretability using SHAP  
 
 ---
 
 ## 📊 Key Insights  
-SHAP analysis highlights that:
 
-- **High Blood Pressure (HighBP)**  
-- **High Cholesterol (HighChol)**  
-- and features such as **BMI**
-
-have a strong influence on diabetes predictions.
-
-Higher values of these features are generally associated with increased predicted risk.
+- Health indicators such as **Blood Pressure**, **Cholesterol**, and **BMI** show strong association with diabetes risk  
+- Certain features consistently contribute more to model predictions  
+- Higher values in key clinical indicators generally increase predicted risk  
 
 ---
 
-## 🔬 Explainability  
+## 🔬 Model Interpretation  
 
-To improve interpretability, SHAP was used to analyze feature contributions.
-
-📌 The beeswarm plot below shows:
-- Which features matter most  
-- How they impact predictions (positive/negative influence)  
+SHAP was used to explore feature importance and understand how input variables influence predictions.
 
 ![SHAP Summary](https://github.com/MeghaKA/DiabeticPatientAnalysis/blob/main/shap_summary.png)
+
 ---
 
 ## 🧠 Why This Matters  
-In healthcare, predictions alone are not enough.  
-Models must be interpretable and trustworthy.
 
-This project demonstrates how machine learning models can provide **both predictive performance and meaningful insights**, supporting real-world decision-making.
+Early prediction of diabetes risk can support:
+- Preventive healthcare strategies  
+- Better clinical decision-making  
+- Improved patient outcomes  
 
 ---
 
 ## 🔮 Future Work  
-- Improve model performance (especially recall)  
-- Extend analysis to related diseases such as CKD  
-- Explore more advanced explainability approaches  
+- Improve model performance and generalization  
+- Extend analysis to related diseases (e.g., CKD)  
+- Apply advanced explainability techniques  
 
 ---
 
