@@ -44,7 +44,8 @@ SHAP was used to understand feature importance and model behavior.
 
 ## 📉 SHAP Summary Plot
 
-SHAP Summary
+
+![SHAP Summary](shap_summary_diabetes.png)
 
 ---
 
